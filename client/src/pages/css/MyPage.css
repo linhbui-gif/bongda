@@ -1,0 +1,180 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Yeon+Sung&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+input {
+  font-size: 15px;
+}
+
+#div1 {
+  height: 120vh;
+  background-size: cover;
+  background-image: url(Backimage.jpg);
+}
+
+#center {
+  height: 120vh;
+  background-color: brown;
+  width: 45%;
+  opacity: 90%;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+#service-name {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  height: 30vh;
+  padding: 75px;
+}
+
+.service_name {
+  font-family: 'Birthstone', cursive;
+}
+
+#user-email {
+  height: 10vh;
+  padding: 10px;
+  margin-top: 100px;
+  text-align: center;
+  margin-right: 72px;
+}
+
+.user-email-text {
+  font-family: 'Yeon Sung', cursive;
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+}
+
+.user-email-input {
+  height: 30px;
+}
+
+#user-password {
+  height: 15vh;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 35px;
+  margin-bottom: -30px;
+  text-align: center;
+}
+
+.user-password-text {
+  padding: 15px;
+  font-family: 'Yeon Sung', cursive;
+  font-size: 20px;
+  color: white;
+}
+
+.user-password-input {
+  height: 30px;
+}
+
+#user-name {
+  height: 15vh;
+  padding: 10px;
+  margin-left: 67px;
+  margin-right: 95px;
+  margin-bottom: -30px;
+  text-align: center;
+}
+
+.user-name-text {
+  padding: 15px;
+  font-family: 'Yeon Sung', cursive;
+  font-size: 20px;
+  color: white;
+}
+
+.user-name-input {
+  height: 30px;
+}
+
+#mypage-buttons {
+  height: 30vh;
+}
+
+.leave-button {
+  height: 50px;
+  width: 25%;
+  background-color: white;
+  border-radius: 15px;
+	background-color:#2dabf9;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Yeon Sung', cursive;
+	font-size: 20px;
+	padding:9px 23px;
+	text-decoration:none;
+}
+
+.previous-button {
+  background-color: white;
+  border-radius: 15px;
+	background-color:#2dabf9;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Yeon Sung', cursive;
+	font-size: 20px;
+	padding:9px 23px;
+	text-decoration:none;
+}
+
+.modify-password {
+  box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#242224;
+  font-family: 'Yeon Sung', cursive;
+	font-size:12px;
+  font-weight:bold;
+	padding:6px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+  margin-left: 5px;
+}
+
+.modify-name {
+  box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#242224;
+  font-family: 'Yeon Sung', cursive;
+	font-size:12px;
+  font-weight:bold;
+	padding:6px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+  margin-left: 5px;
+}
+
+.modify-password:active {
+  margin-left: 5px;
+  margin-top : 5px;
+  box-shadow : none;
+}
+
+.modify-name:active {
+  margin-left: 5px;
+  margin-top : 5px;
+  box-shadow : none;
+} */
+
+
+

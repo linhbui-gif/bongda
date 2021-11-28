@@ -1,0 +1,29 @@
+.navigation--audio-mute-btn {
+  position: absolute;
+  width: 15vw;
+  height: 5vh;
+  padding-left: 5vw;
+  margin-top: 5vh;
+  margin-left: 70vw;
+  background-color: white;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: white
+}
+
+audio::-webkit-media-controls-play-button {
+  display: none !important;
+}
+  
+audio::-webkit-media-controls-timeline {
+  display: none !important;
+}
+  
+audio::-webkit-media-controls-current-time-display {
+  display: none !important;
+}
+  
+audio::-webkit-media-controls-time-remaining-display {
+  display: none !important;
+}
