@@ -46,14 +46,19 @@ router.post("/signin", async (req, res, next) => {
         }
         const token = jwt.sign({
             id: user.id
-        }, 'hello');
+        }, 'hello',{ expiresIn: '12h' });
+        const refreshToken = jwt.sign({
+            id: user.id
+        }, 'hello',{ expiresIn: '7d' })
         return res.status(200).json({
             status: 200,
             data: {
-                token
+                token,
+                refreshToken
             }
         })
     } catch (error) {
+        console.log(error);
         res.status(400).json({
             status: 400,
             message: error,
